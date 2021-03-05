@@ -63,15 +63,15 @@ a{
 
 a:hover{
 	color: white;
-	background-color: purple;
+	background-color: white;
 }
 
 footer{
 	margin-top: 0px;
-	background-color: lightyellow; 	
+	background-color: lightgrey; 	
 	text-align: center;
 	color: black;
-	padding: 30px;
+	padding: 10px;
 
 }
 
@@ -84,5 +84,8 @@ p.caption{
 	font-style: bold;
 	margin-top: 0;
 	text-align: center;
+	font-size: 30px;
 }
 
+nav{
+	background-color: #fffd8d;

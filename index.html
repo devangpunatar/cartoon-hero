@@ -1,15 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Phineas Flynn</title>
+	<title>Assignment 3</title>
 	<link rel="icon" href="img/phineas-favicon.png">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Phineas's Portfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>   
+    </div>
+  </div>
+</nav>
 	<!-- header element -->
 	<header>
-		<img src="img/avatar.jpg">
+		<img src="img/avatar.jpg" class="img-thumbnail">
 		<h1>Phineas Flynn</h1>
 	</header>
 	<!-- main element -->
@@ -20,7 +50,7 @@
 
 			Phineas is portrayed as an intelligent, creative, innovative, and good-natured child. As a means to defeat boredom, he and Ferb devise outrageous activities throughout their summer vacation, often participating in activities – toy design (in "Toy to the World"); piracy (in "The Ballad of Badbeard"); engineering (in "It's About Time!"); restaurant management (in "Chez Platypus"); usually inaccessible to children. Phineas lives in the fictional town of Danville (part of the Tri-State Area), in a large, suburban neighborhood; he comes up with most of his ideas while sitting with Ferb in his backyard.
 		</p>
-		<img src="img/wholesome.jpeg">
+		<img src="img/wholesome.jpeg" class="img-fluid">
 		<p class="caption">Phineas and his siblings</p>
 
 		<!-- Characteristics -->
@@ -35,20 +65,45 @@
 		<h2>Phineas's Friends</h2>
 		<p>Phineas's best friend is actually his brother Ferb Fletcher. He also has a pet called Perry the Platypus. Click on the 
 		links below to read more about them:</p>
-		<ul>
-			<li><a target="_blank" href="https://phineasandferb.fandom.com/wiki/Ferb_Fletcher">Ferb Fletcher</a></li>
-			<li><a target="_blank" href="https://phineasandferb.fandom.com/wiki/Perry_the_Platypus">Perry the Platypus</a></li>
-			<li><a target="_blank" href="https://phineasandferb.fandom.com/wiki/Heinz_Doofenshmirtz">Heinz Doofenshmirtz</a></li>
-			<li><a target="_blank" href="https://phineasandferb.fandom.com/wiki/Vanessa_Doofenshmirtz">Vanessa Doofenshmirtz</a></li>
-			<li><a target="_blank" href="https://phineasandferb.fandom.com/wiki/Buford_Van_Stomm#Isabella_Garcia-Shapiro">Isabella</a></li>
-			<li><a target="_blank" href="https://phineasandferb.fandom.com/wiki/Buford_Van_Stomm#Baljeet_Tjinder">Baljeet</a></li>
-		</ul>
-	</main>
+		<div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+          <label class="form-check-label" for="flexRadioDefault1">
+            <a target="_blank" href="https://phineasandferb.fandom.com/wiki/Ferb_Fletcher">Ferb Fletcher</a>
+        </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+      <label class="form-check-label" for="flexRadioDefault1">
+        <a target="_blank" href="https://phineasandferb.fandom.com/wiki/Heinz_Doofenshmirtz">Heinz Doofenshmirtz</a>
+    </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+  <label class="form-check-label" for="flexRadioDefault1">
+    <a target="_blank" href="https://phineasandferb.fandom.com/wiki/Vanessa_Doofenshmirtz">Vanessa Doofenshmirtz</a>
+</label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+  <label class="form-check-label" for="flexRadioDefault1">
+    <a target="_blank" href="https://phineasandferb.fandom.com/wiki/Buford_Van_Stomm#Isabella_Garcia-Shapiro">Isabella</a>
+</label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+  <label class="form-check-label" for="flexRadioDefault1">
+    <a target="_blank" href="https://phineasandferb.fandom.com/wiki/Buford_Van_Stomm#Baljeet_Tjinder">Baljeet</a>
+</label>
+</div>
 
 
-	<!-- Footer element -->
-	<footer>
-		<p>This site was my 1st attempt from scratch! &copy; Devang Punatar</p>
-	</footer>
+</main>
+
+
+<!-- Footer element -->
+<footer>
+  <p>This site was my 1st attempt from scratch! &copy; Devang Punatar</p>
+</footer>
 </body>
 </html>
